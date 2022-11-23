@@ -1,0 +1,16 @@
+{
+    "require": {
+        "monolog/monolog": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Config\\": "config",
+            "Src\\Contacts\\": "src/contracts",
+            "Src\\Features\\": "src/features"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+# Ignore Mac system files
+.DS_store
+
+# Ingore PHPStorm & PHP stuff
+.idea/
+.phpunit.result.cache
+
+# Ignore Vendor folder for dependencies
+vendor
+
